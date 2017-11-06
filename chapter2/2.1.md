@@ -1,0 +1,73 @@
+# 2.1 Catkin编译系统
+早期的ROS编译系统是rosbuild，但随着ROS的不断发展，rosbuild逐渐暴露出许多缺点，不能很好满足系统需要。在Groovy版本面世后，Catkin作为rosbuild的替代品被正式投入使用。Catkin操作更加简化且工作效率更高，可移植性更好，而且支持交叉编译和更加合理的功能包分配。目前的ROS同时支持着rosbuild和Catkin两种编译系统，但ROS的核心软件包也已经全部转换为Catkin。rosbuild已经被逐步淘汰，所以建议初学者直接上手Catkin。
+
+本节我们主要来介绍catkin的编译系统。
+### 2.1.1 Catkin特点
+
+Catkin是基于CMake的编译构建系统，具有以下特点：
+
+* Catkin沿用了包管理的传统像 `find_package()`基础结构,`pkg-config`
+* 扩展了CMake，例如
+	* 软件包编译后无需安装就可使用
+	* 自动生成`find_package()`代码，`pkg-config`文件
+	* 解决了多个软件包构建顺序问题
+
+一个Catkin的软件包（package）必须要包括两个文件：
+
+* package.xml: 包括了package的描述信息
+	* name, description, version, maintainer(s), license
+	* opt. authors, url's, dependencies, plugins, etc...
+
+* CMakeLists.txt: 构建package所需的CMake文件
+	* 调用Catkin的函数/宏
+	* 解析`package.xml`
+	* 找到其他依赖的catkin软件包
+	* 将本软件包添加到环境变量
+
+### 2.1.2 Catkin工作原理
+
+catkin编译的工作流程如下：
+1. 首先在工作空间`catkin_ws/src/`下递归的查找其中每一个ROS的package。
+2. package中会有`package.xml`和`CMakeLists.txt`文件，Catkin(CMake)编译系统依据`CMakeLists.txt`文件,从而生成`makefiles`(放在`catkin_ws/build/`)。
+3. 然后`make`刚刚生成的`makefiles`等文件，编译链接生成可执行文件(放在`catkin_ws/devel`)。
+
+也就是说，Catkin就是将`cmake`与`make`指令做了一个封装从而完成整个编译过程的工具。catkin_make从而实现规范工作路径与生成文件路径的作用。catkin有比较突出的优点，主要是：
+
+* 操作更加简单
+* 一次配置，多次使用
+* 跨依赖项目编译
+
+### 2.1.3 使用`catkin_make`进行编译
+
+要用catkin编译一个工程或软件包，只需要用`catkin_make`指令。一般当我们写完代码，执行一次`catkin_make`进行编译,调用系统自动完成编译和链接过程，构建生成目标文件。
+
+	$ cd ~/catkin_ws #回到工作空间,catkin_make必须在工作空间下执行
+	$ catkin_make    #开始编译
+	$ source ~/catkin_ws/devel/setup.bash #刷新坏境
+
+**注意:** 以上代码第一行的作用是回到工作空间，catkin_make语句在其他路径下编译不会成功。编译完成后，如果有新的目标文件产生（原来没有），那么一般紧跟着要source刷新环境，使得系统能够找到刚才编译生成的ROS可执行文件。这个细节比较容易遗漏，致使后面出现可执行文件无法打开等错误。
+
+`catkin_make`命令也有一些可选参数，例如：
+```
+用法：catkin_make [args]
+  -h, --help            帮助信息
+  -C DIRECTORY, --directory DIRECTORY
+                        工作空间的路径 (默认为 '.')
+  --source SOURCE       src的路径 (默认为'workspace_base/src')
+  --build BUILD         build的路径 (默认为'workspace_base/build')
+  --use-ninja           用ninja取代make
+  --use-nmake           用nmake取'make
+  --force-cmake         强制cmake，即使已经cmake过
+  --no-color            禁止彩色输出(只对catkin_make和CMake生效)
+  --pkg PKG [PKG ...]   只对某个PKG进行make
+  --only-pkg-with-deps  ONLY_PKG_WITH_DEPS [ONLY_PKG_WITH_DEPS ...]
+                        将指定的package列入白名单CATKIN_WHITELIST_PACKAGES，
+                        之编译白名单里的package。该环境变量存在于CMakeCache.txt。
+  --cmake-args [CMAKE_ARGS [CMAKE_ARGS ...]]
+                        传给CMake的参数
+  --make-args [MAKE_ARGS [MAKE_ARGS ...]]
+                        传给Make的参数
+  --override-build-tool-check
+                        用来覆盖由于不同编译工具产生的错误
+
+```
