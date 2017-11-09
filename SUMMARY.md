@@ -10,6 +10,8 @@
   * [catkin编译系统](chapter2/2.1.md)
   * [catkin工作空间](chapter2/2.2.md)
   * [package软件包](chapter2/2.3.md)
+  * [CMakeList.txt](chapter2/2.4.md)
+  * [package.xml](chapter2/2.4.md)
 * [第三章 ROS通信架构](chapter3/README.md)
   * [node&master](chapter3/3.1.md)
   * [topic&message](chapter3/3.2.md)
