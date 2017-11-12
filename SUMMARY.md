@@ -1,5 +1,6 @@
-# 目录
+# Summary
 
+* [Introduction](README.md)
 * [第一章 ROS简介](chapter1/README.md)
   * [机器人时代的到来](chapter1/1.1.md)
   * [ROS发展历程](chapter1/1.2.md)
@@ -17,11 +18,10 @@
   * [node&master](chapter3/3.1.md)
   * [topic&message](chapter3/3.2.md)
   * [service&srv](chapter3/3.3.md)
+  * [parameter server](chapter3/parameter-server.md)
 * [第四章 常用工具](chapter4/README.md)
 * [第五章 roscpp](chapter5/README.md)
 * [第六章 rospy](chapter6/README.md)
 * [第七章 TF与URDF](chapter7/README.md)
 * [第八章 导航](chapter8/README.md)
-
-
 
