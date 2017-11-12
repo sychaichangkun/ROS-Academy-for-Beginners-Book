@@ -18,7 +18,6 @@
   * [node&master](chapter3/3.1.md)
   * [topic&message](chapter3/3.2.md)
   * [service&srv](chapter3/3.3.md)
-  * [parameter server](chapter3/parameter-server.md)
 * [第四章 常用工具](chapter4/README.md)
 * [第五章 roscpp](chapter5/README.md)
 * [第六章 rospy](chapter6/README.md)
