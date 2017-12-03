@@ -27,6 +27,7 @@
   * [Gazebo](chapter4/4.1.md)
   * [RViz](chapter4/4.2.md)
   * [rqt](chapter4/4.3.md)
+  * [rosbag](chapter4/4.4.md)
 * [第五章 roscpp](chapter5/README.md)
 * [第六章 rospy](chapter6/README.md)
 * [第七章 TF与URDF](chapter7/README.md)
