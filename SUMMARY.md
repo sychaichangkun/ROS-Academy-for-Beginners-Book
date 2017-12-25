@@ -37,7 +37,7 @@
   * [时钟](chapter5/5.6.md)
   * [日志与异常](chapter5/5.7.md)
 * [第六章 rospy](chapter6/README.md)
-  * [rospy介绍](chapter6/6.1.md)
+  * [rospy与主要接口](chapter6/6.1.md)
 * [第七章 TF与URDF](chapter7/README.md)
 * [第八章 导航](chapter8/README.md)
 
