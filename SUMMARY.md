@@ -38,6 +38,10 @@
   * [日志与异常](chapter5/5.7.md)
 * [第六章 rospy](chapter6/README.md)
   * [rospy与主要接口](chapter6/6.1.md)
+  * [Topic in rospy](chapter6/6.2.md)
+  * [Service in rospy](chapter6/6.3.md)
+  * [Param与Time](chapter6/6.4.md)
 * [第七章 TF与URDF](chapter7/README.md)
-* [第八章 导航](chapter8/README.md)
+* [第八章 SLAM](chapter8/README.md)
+* [第九章 Navigation](chapter8/README.md)
 
