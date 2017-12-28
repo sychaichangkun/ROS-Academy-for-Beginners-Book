@@ -29,4 +29,21 @@
   A8:执行语句：`source ~/catkin_ws/devel/setup.bash`,
   
 * Q9：Q8这句命令生命周期很短，只在目前的终端有效，怎么解决？
+
   A9：将上述命令写入.bashrc文件中，执行命令`echo "source ~/catkin_ws/devel/setup.bash">> ~/.bashrc`即可解决。
+  
+* Q10：出现某些错误提示为`Error: package 'xxxx' not found`?怎么解决？
+A10：出现软件包没有找到，有可能是本机没有安装相关软件包，可以尝试安装以解决。执行`sudo apt install ros-kinetic-xxxx`,注意相关格式，`ros-版本号-包名称`。
+
+* Q11：运行某个topic例如`rosrun image_view image_view`出现警告
+
+  A11：必须指定确定的topic，正确的命令执行为`rosrun image_view image_view image:=/camera/rgb/image_raw/`
+  
+* Q12:检查更新出现错误 `Failed To Download Repository Information`
+
+  A12:出现“未能下载存储库信息”，有效的解决办法是删除`/var/lib/apt/lists`。操作命令执行语句：
+  
+      sudo rm -rf /var/lib/apt/lists/*
+      sudo apt-get update
+      
+      
