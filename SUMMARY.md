@@ -43,6 +43,9 @@
   * [Param与Time](chapter6/6.4.md)
 * [第七章 TF与URDF](chapter7/README.md)
 * [第八章 SLAM](chapter8/README.md)
-* [第九章 Navigation](chapter8/README.md)
+  * [地图](chapter8/8.1.md)
+  * [Gmapping](chapter8/8.2.md)
+  * [Karto](chapter8/8.3.md)
+* [第九章 Navigation](chapter9/README.md)
 * [第十章 常见问题与解决](chapter10/10.1.md)
 
