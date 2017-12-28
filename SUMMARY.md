@@ -44,5 +44,5 @@
 * [第七章 TF与URDF](chapter7/README.md)
 * [第八章 SLAM](chapter8/README.md)
 * [第九章 Navigation](chapter8/README.md)
-* [第十章 常见问题与解决](di-shi-zhang-chang-jian-wen-ti-yu-jie-jue.md)
+* [第十章 常见问题与解决](chapter10/10.1.md)
 
