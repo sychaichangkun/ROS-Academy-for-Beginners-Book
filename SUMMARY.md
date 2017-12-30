@@ -46,6 +46,7 @@
   * [地图](chapter8/8.1.md)
   * [Gmapping](chapter8/8.2.md)
   * [Karto](chapter8/8.3.md)
+  * [Hector](chapter8/hector.md)
 * [第九章 Navigation](chapter9/README.md)
 * [第十章 常见问题与解决](chapter10/10.1.md)
 
