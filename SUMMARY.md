@@ -15,7 +15,7 @@
   * [package.xml](chapter2/2.5.md)
   * [其他常见文件](chapter2/2.6.md)
 * [第三章 ROS通信架构](chapter3/README.md)
-  * [node&&master](chapter3/3.1.md)
+  * [node & master](chapter3/3.1.md)
   * [launch文件](chapter3/3.2.md)
   * [topic](chapter3/3.3.md)
   * [msg](chapter3/3.4.md)
@@ -57,5 +57,9 @@
   * [Karto](chapter8/8.3.md)
   * [Hector](chapter8/8.4.md)
 * [第九章 Navigation](chapter9/README.md)
+  * [Navigation Stack](chapter9/9.1.md)
+  * [move_base](chapter9/9.2.md)
+  * [costmap](chapter9/9.3.md)
+  * [map_server & amcl](chapter9/9.4.md)
 * [第十章 常见问题与解决](chapter10/10.1.md)
 
