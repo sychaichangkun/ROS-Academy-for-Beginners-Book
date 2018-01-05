@@ -1,5 +1,5 @@
 # 第六章 rospy
-### 本章简介
+## 本章简介
 上一章我们学习了C++语音的ROS接口roscpp，本章我们来学习ROS的另一个接口rospy，也即是Python语音的接口。客户端库（Client Libarary）不仅仅指的是C++、Python语言的接口，其实是各种语言的接口统称。rospy中函数的定义，函数的用法都和roscpp不相同。
 
 
