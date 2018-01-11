@@ -71,4 +71,5 @@
 * [第十章 常见问题与解决](chapter10/10.1.md)
 
 ## 第二部分 基于ROS的实验
-
+* [SLAM实验之RTAB-Map算法](experiment-rtabmap/README.md)
+  * [rtabmap_ros](experiment-rtabmap/1.md)
