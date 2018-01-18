@@ -36,6 +36,7 @@
   * [RViz](chapter4/4.2.md)
   * [Rqt](chapter4/4.3.md)
   * [Rosbag](chapter4/4.4.md)
+  * [Rosbridge](chapter4/4.5.md)
 * [第五章 roscpp](chapter5/README.md)
   * [Client Library与roscpp](chapter5/5.1.md)
   * [节点初始、关闭与NodeHandle](chapter5/5.2.md)
@@ -72,8 +73,9 @@
 * [第十章 常见问题与解决](chapter10/10.1.md)
 
 ## 第二部分 基于ROS的实验
+
 * [SLAM实验之RTAB-Map算法](experiment-rtabmap/README.md)
-  * [rtabmap_ros介绍](experiment-rtabmap/1.md)
+  * [rtabmap\_ros介绍](experiment-rtabmap/1.md)
   * [rtabmap运行方法](experiment-rtabmap/2.md)
 * [SLAM实验之ORB-SLAM算法](experiment-orbslam/README.md)
   * [ORB-SLAM2介绍](experiment-orbslam/1.md)
