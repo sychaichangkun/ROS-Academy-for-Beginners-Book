@@ -50,6 +50,11 @@
   * [Topic in rospy](chapter6/6.2.md)
   * [Service in rospy](chapter6/6.3.md)
   * [Param与Time](chapter6/6.4.md)
+* [第七章 （new） TF](chapter7-new/README.md)
+  * [认识TF](chapter7-new/7.1.md)
+  * [TF消息](chapter7-new/7.2.md)
+  * [tf in roscpp](chapter7-new/7.3.md)
+  * [tf in rospy](chapter7-new/7.4.md)
 * [第七章 TF与URDF](chapter7/README.md)
   * [旋转矩阵](chapter7/7.1.1.md)
   * [欧拉角](chapter7/7.1.2.md)
@@ -70,7 +75,8 @@
   * [move\_base](chapter9/9.2.md)
   * [costmap](chapter9/9.3.md)
   * [Map\_server & Amcl](chapter9/9.4.md)
-* [第十章 常见问题与解决](chapter10/10.1.md)
+* [第十章 常见问题与解决](chapter10/README.md)
+  * [常见问题与解决](chapter10/10.1.md)
 
 ## 第二部分 基于ROS的实验
 
