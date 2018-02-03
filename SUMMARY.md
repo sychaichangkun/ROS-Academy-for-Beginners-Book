@@ -84,21 +84,9 @@
     * [nav\_core](chapter10/navigation工具包说明/nav_core说明.md)
     * [robot\_pose\_ekf](chapter10/navigation工具包说明/robot_pose_ekf说明.md)
     * [rotate\_recovery](chapter10/navigation工具包说明/rotate_recovery说明.md)
-* [第八章 TF与URDF old](chapter8/README.md)
-  * [旋转矩阵](chapter7/7.1.1.md)
-  * [欧拉角](chapter7/7.1.2.md)
-  * [四元数](chapter7/7.1.3.md)
-  * [TF in roscpp](chapter7/7.1.4.md)
-  * [TF in rospy](chapter7/7.1.5.md)
-  * [补充和扩展](chapter7/7.1.6.md)
-  * [TF基础](chapter7/7.2.md)
-  * [URDF基础](chapter7/7.3.1.md)
-  * [制作URDF模型](chapter7/7.3.2.md)
-* 第四章 ROS通信架构（二）
-  * [Service](chapter1/service.md)
-  * Srv
-  * Parameter server
-  * Actionlib
+* [第十一章 常见问题与解决](chapter11/README.md)
+  * [常见问题与解决](chapter11/11.1.md)
+* [TF 附录](chapter1/tf-fu-lu.md)
 
 ## 第二部分 基于ROS的实验
 
