@@ -22,15 +22,16 @@
   * [package.xml](chapter2/2.5.md)
   * [Metapacakge软件元包](chapter2/2.6.md)
   * [其他常见文件类型](chapter2/2.7.md)
-* [第三章 ROS通信架构](chapter3/README.md)
+* [第三章 ROS通信架构（一）](chapter3/README.md)
   * [Node & Master](chapter3/3.1.md)
   * [Launch文件](chapter3/3.2.md)
   * [Topic](chapter3/3.3.md)
   * [Msg](chapter3/3.4.md)
-  * [Service](chapter3/3.5.md)
-  * [Srv](chapter3/3.6.md)
-  * [Parameter server](chapter3/3.7.md)
-  * [Actionlib](chapter3/3.8.md)
+* [第四章 ROS通信架构（二）](chapter4/README.md)
+  * [Service](chapter4/4.1.md)
+  * [Srv](chapter4/4.2.md)
+  * [Parameter server](chapter4/4.3.md)
+  * [Actionlib](chapter4/4.4.md)
 * [第五章 常用工具](chapter5/README.md)
   * [Gazebo](chapter5/5.1.md)
   * [RViz](chapter5/5.2.md)
@@ -93,8 +94,11 @@
   * [TF基础](chapter7/7.2.md)
   * [URDF基础](chapter7/7.3.1.md)
   * [制作URDF模型](chapter7/7.3.2.md)
-* [第十一章 常见问题与解决](chapter11/README.md)
-  * [常见问题与解决](chapter11/11.1.md)
+* 第四章 ROS通信架构（二）
+  * [Service](chapter1/service.md)
+  * Srv
+  * Parameter server
+  * Actionlib
 
 ## 第二部分 基于ROS的实验
 
