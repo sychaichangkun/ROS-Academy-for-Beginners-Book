@@ -86,7 +86,7 @@
     * [rotate\_recovery](chapter10/navigation工具包说明/rotate_recovery说明.md)
 * [第十一章 常见问题与解决](chapter11/README.md)
   * [常见问题与解决](chapter11/11.1.md)
-* [TF 附录](chapter1/tf-fu-lu.md)
+* [TF 附录](chapter8old/README.md)
 
 ## 第二部分 基于ROS的实验
 
