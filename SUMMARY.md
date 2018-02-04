@@ -38,6 +38,7 @@
   * [Rqt](chapter5/5.3.md)
   * [Rosbag](chapter5/5.4.md)
   * [Rosbridge](chapter5/5.5.md)
+  * [moveit!](chapter5/moveit.md)
 * [第六章 roscpp](chapter6/README.md)
   * [Client Library与roscpp](chapter6/6.1.md)
   * [节点初始、关闭与NodeHandle](chapter6/6.2.md)
