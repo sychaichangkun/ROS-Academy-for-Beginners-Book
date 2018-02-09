@@ -1,11 +1,6 @@
-# Summary
-
-## 前言
+# 中国大学MOOC——《机器人操作系统入门》课程讲义
 
 * [前言](README.md)
-
-## 第一部分 ROS入门
-
 * [第一章 ROS简介](chapter1/README.md)
   * [机器人时代的到来](chapter1/1.1.md)
   * [ROS发展历程](chapter1/1.2.md)
@@ -54,10 +49,10 @@
   * [Param与Time](chapter7/7.4.md)
 * [第八章 TF与URDF](chapter8/README.md)
   * [认识TF](chapter8/8.1.md)
-  * [TF消息](chapter7-new/7.2.md)
-  * [tf in c++](chapter7-new/7.3.md)
-  * [tf in python](chapter7-new/7.4.md)
-  * [统一机器人描述格式](chapter7-new/7.5.md)
+  * [TF消息](chapter8/8.2.md)
+  * [tf in c++](chapter8/8.3.md)
+  * [tf in python](chapter8/8.4.md)
+  * [统一机器人描述格式](chapter8/8.5.md)
 * [第九章 SLAM](chapter9/README.md)
   * [地图](chapter9/9.1.md)
   * [Gmapping](chapter9/9.2.md)
@@ -68,32 +63,25 @@
   * [move\_base](chapter10/10.2.md)
   * [costmap](chapter10/10.3.md)
   * [Map\_server & Amcl](chapter10/10.4.md)
-  * [附录：Navigation工具包说明](chapter10/navigation工具包说明/README.md)
-    * [amcl](chapter10/navigation工具包说明/amcl说明.md)
-    * [local\_base\_planner](chapter10/navigation工具包说明/base_local_planner说明.md)
-    * [carrot\_planner](chapter10/navigation工具包说明/carrot_planner说明.md)
-    * [clear\_costmap\_recovery](chapter10/navigation工具包说明/clear_costmap_recovery说明.md)
-    * [costmap\_2d](chapter10/navigation工具包说明/costmap_2d说明.md)
-    * [dwa\_local\_planner](chapter10/navigation工具包说明/dwa_local_planner说明.md)
-    * [fake\_localization](chapter10/navigation工具包说明/fake_localization说明.md)
-    * [global\_planner](chapter10/navigation工具包说明/global_planner说明.md)
-    * [map\_server](chapter10/navigation工具包说明/map_server说明.md)
-    * [move\_base\_msg](chapter10/navigation工具包说明/move_base_msg说明.md)
-    * [move\_base](chapter10/navigation工具包说明/move_base说明.md)
-    * [move\_slow\_and\_clear](chapter10/navigation工具包说明/move_slow_and_clear说明.md)
-    * [navfn](chapter10/navigation工具包说明/navfn说明.md)
-    * [nav\_core](chapter10/navigation工具包说明/nav_core说明.md)
-    * [robot\_pose\_ekf](chapter10/navigation工具包说明/robot_pose_ekf说明.md)
-    * [rotate\_recovery](chapter10/navigation工具包说明/rotate_recovery说明.md)
-* [第十一章 常见问题与解决](chapter11/README.md)
-  * [常见问题与解决](chapter11/11.1.md)
-* [TF 附录](chapter8old/README.md)
-
-## 第二部分 基于ROS的实验
-
-* [SLAM实验之RTAB-Map算法](experiment-rtabmap/README.md)
-  * [rtabmap\_ros介绍](experiment-rtabmap/1.md)
-  * [rtabmap运行方法](experiment-rtabmap/2.md)
-* [SLAM实验之ORB-SLAM算法](experiment-orbslam/README.md)
-  * [ORB-SLAM2介绍](experiment-orbslam/1.md)
-
+* [附录：TF数学基础](chapter8old/README.md)
+  * [三维空间刚体运动---旋转矩阵](chapter8old/7.1.1.md)
+  * [三维空间刚体运动---欧拉角](chapter8old/7.1.2.md)
+  * [三维空间刚体运动---四元数](chapter8old/7.1.3.md)
+* [附录：Navigation工具包说明](chapter10/navigation工具包说明/README.md)
+  * [amcl](chapter10/navigation工具包说明/amcl说明.md)
+  * [local\_base\_planner](chapter10/navigation工具包说明/base_local_planner说明.md)
+  * [carrot\_planner](chapter10/navigation工具包说明/carrot_planner说明.md)
+  * [clear\_costmap\_recovery](chapter10/navigation工具包说明/clear_costmap_recovery说明.md)
+  * [costmap\_2d](chapter10/navigation工具包说明/costmap_2d说明.md)
+  * [dwa\_local\_planner](chapter10/navigation工具包说明/dwa_local_planner说明.md)
+  * [fake\_localization](chapter10/navigation工具包说明/fake_localization说明.md)
+  * [global\_planner](chapter10/navigation工具包说明/global_planner说明.md)
+  * [map\_server](chapter10/navigation工具包说明/map_server说明.md)
+  * [move\_base\_msg](chapter10/navigation工具包说明/move_base_msg说明.md)
+  * [move\_base](chapter10/navigation工具包说明/move_base说明.md)
+  * [move\_slow\_and\_clear](chapter10/navigation工具包说明/move_slow_and_clear说明.md)
+  * [navfn](chapter10/navigation工具包说明/navfn说明.md)
+  * [nav\_core](chapter10/navigation工具包说明/nav_core说明.md)
+  * [robot\_pose\_ekf](chapter10/navigation工具包说明/robot_pose_ekf说明.md)
+  * [rotate\_recovery](chapter10/navigation工具包说明/rotate_recovery说明.md)
+  
