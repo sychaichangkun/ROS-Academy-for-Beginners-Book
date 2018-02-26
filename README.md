@@ -18,7 +18,7 @@
 
 * 柴长坤  [chaichangkun@droid.ac.cn](chaichangkun@droid.ac.cn)
 * 武延军  [yanjun@iscas.ac.cn](yanjun@iscas.ac.cn)
-* 常先明  [cmx@droid.ac.cn](cxm@droid.ac.cn)
+* 常先明  [cxm@droid.ac.cn](cxm@droid.ac.cn)
 
 ## 致谢
 
