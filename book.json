@@ -1,6 +1,5 @@
 {
-    "plugins":["katex"],
-    "plugins":["quiz"],
+    "plugins":["quiz","katex"],
     "pluginsConfig": {
         "quiz": {
             "labels": {
