@@ -25,6 +25,7 @@
   * [Topic](chapter3/3.3.md)
   * [Msg](chapter3/3.4.md)
   * [常见msg类型](chapter3/3.5.md)
+  * [单元测试三](chapter3/3.6.md)
 * [第四章 ROS通信架构（二）](chapter4/README.md)
   * [Service](chapter4/4.1.md)
   * [Srv](chapter4/4.2.md)
