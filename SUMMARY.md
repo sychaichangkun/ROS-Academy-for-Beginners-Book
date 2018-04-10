@@ -33,6 +33,7 @@
   * [Action](chapter4/4.4.md)
   * [常见srv类型](chapter4/4.5.md)
   * [常见action类型](chapter4/4.6.md)
+  * [单元测试四](chapter4/4.7.md)
 * [第五章 常用工具](chapter5/README.md)
   * [Gazebo](chapter5/5.1.md)
   * [RViz](chapter5/5.2.md)
