@@ -18,6 +18,7 @@
   * [package.xml](chapter2/2.5.md)
   * [Metapacakge软件元包](chapter2/2.6.md)
   * [其他常见文件类型](chapter2/2.7.md)
+  * [单元测试二](chapter2/2.8.md)
 * [第三章 ROS通信架构（一）](chapter3/README.md)
   * [Node & Master](chapter3/3.1.md)
   * [Launch文件](chapter3/3.2.md)
