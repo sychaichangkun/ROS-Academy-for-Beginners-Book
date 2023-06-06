@@ -1,6 +1,5 @@
 # Summary
 
-* [前言](README.md)
 * [第一章 ROS简介](chapter1/README.md)
   * [机器人时代的到来](chapter1/1.1.md)
   * [ROS发展历程](chapter1/1.2.md)
